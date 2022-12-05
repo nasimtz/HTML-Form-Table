@@ -1,0 +1,44 @@
+body {
+    background: #e5c4f9;
+    color: #080808;
+    margin: 0%;
+    padding-top: 80px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.studentInfo {
+    width: 500px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+th,
+td {
+    padding: 5px;
+    border: 1px solid rgb(83, 83, 83);
+}
+
+tr:nth-child(even) {
+    background-color: #e0f3ff;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.header {
+    text-align: center;
+    font-weight: bolder;
+    background-color: #2e4e93;
+    color: rgb(255, 255, 255);
+}
+
+tr:hover {
+    background-color: #bfbaea;
+}

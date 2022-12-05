@@ -1,0 +1,52 @@
+body {
+    background: #e5c4f9;
+    color: #080808;
+}
+.container{
+width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}  
+.card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #a5a5a5;
+    margin-top: 20px;
+    box-shadow: 0 5px 5px -2px rgba(0, 0, 0, .05);
+}
+form div {
+        margin-bottom: 10px;
+    }
+
+    form label {
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    
+    form input, form  button, form textarea {
+        
+        border: 1px solid #a4a4a4;
+        border-radius: 5px;
+        padding: 7px;
+        background: #f3f3f3;
+        
+    }
+
+    form input:focus, form  button:focus, form textarea:focus {
+        background-color: #e0e7ff;
+        
+    }
+
+    form fieldset {
+        padding: 10px;
+        margin-bottom: 20px;
+    border: 1px solid #a5a5a5;
+    border-radius: 15px;
+    }
+
+    form legend {
+        font-weight: bold;
+
+    }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<HTMl>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="Form.css">
+    </head>
+    <body>
+        <div class="container" >
+            <h1>Form</h1>
+            <section id="contact-form" class="card">
+                 <form action="tamrin.html">
+                    <fieldset>
+                        <legend>Basic Info</legend>
+                        <div>
+                            <label for="username">Username</label>
+                            <input type="text" name="username" id="username" placeholder="name" required >
+                        </div>
+                        <div>
+                          <label for="password">Password</label>  
+                          <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                        </div>
+                        <div>
+                            <label for="Gender">Gender</label>
+                            <input type="radio" name="Gender" value="f">female
+                            <input type="radio" name="Gender" value="m">male
+                        </div> 
+                        <div>
+                            <label"> <p>Skills:</p>
+                                <input type="checkbox" name="programming" id="checkbox" value="programming">Programming
+                                <input type="checkbox" name="fast type" id="checkbox" value="fast type">Fast type
+                                <p>
+                                <input type="checkbox" name="photoshop" id="checkbox" value="photoshop">Photoshop
+                                <input type="checkbox" name="ui designer" id="checkbox" value="ui designer">UI designer
+                                </p>
+                            </label> 
+                            <label for="select">City</label>
+                                <select name="city" id="city">
+                                    <option value="selectet">select city</option>
+                                    <option value="Rasht">Rasht</option>
+                                    <option value="Tehran">Tehran</option>
+                                    <option value="Shiraz">Shiraz</option>
+                                    <option value="Mashhad">Mashhad</option>
+                                </select> 
+                    </fieldset> 
+        
+                </form>
+            </section>    
+       </div>
+        <div class="container" >
+            <section id="contact-form" class="card">
+               <form action="html.html">
+                    <fieldset>
+                        <legend>More Info</legend>       
+                        <div>
+                            <label for="Bio">Bio:</label>
+                            <textarea name="Bio" id="textarea" cols="32" rows="5"></textarea>
+                        </div>
+                        <div>
+                            <label for="Photo"></label>
+                            <input type="file" name="Photo" id="file">
+                        </div>
+                        <div>
+                            <label for="">Email</label>
+                            <input type="email" name="email" maxlength="32" size="32">
+                        </div>
+                    </fieldset>
+                    <div>
+                        <!--
+                        <input type="submit" value="register">
+                        در این تگ کد اچ تی ام ال نمیشه قرار داد                        
+                        -->
+                        <button type="submit"><strong>register</strong></button>
+                        <input type="reset" value="reset form">
+                    </div>
+                </form>
+            </section>
+        </div>
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</HTMl>
